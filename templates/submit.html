@@ -7,7 +7,7 @@
     <option value="{{ team }}">{{ team }}</option>
     {%- endfor %}
   </select><br>
-  <label for="i">Question index: </label>
+  <label for="i">Question: </label>
   <select id="i" name="i">
     {%- for question in questions %}
     <option value="{{ loop.index - 1 }}">{{ question }}</option>
