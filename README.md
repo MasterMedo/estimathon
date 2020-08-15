@@ -5,15 +5,15 @@ Questions are chosen through the `questions.yaml` file (13 random).
 
 # Start page
 
-[estimathon.png](img/estimathon.png)
+![estimathon.png](./img/estimathon.png)
 
 # Results page
 
-[results.png](img/results.png)
+![results.png](./img/results.png)
 
 # Submit page
 
-[submit.png](img/submit.png)
+![submit.png](./img/submit.png)
 
 # Setup
 
