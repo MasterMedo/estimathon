@@ -1,0 +1,25 @@
+<!doctype html>
+<title>submit an answer</title>
+<form action="{{ url_for('submit_answer') }}" method="post">
+  <label for="team">Team name: </label>
+  <select id="team" name="team">
+    {%- for team in teams %}
+    <option value="{{ team }}">{{ team }}</option>
+    {%- endfor %}
+  </select><br>
+  <label for="i">Question index: </label>
+  <select id="i" name="i">
+    {%- for question in questions %}
+    <option value="{{ loop.index - 1 }}">{{ question }}</option>
+    {%- endfor %}
+  </select><br>
+  <label for="low">Lower bound: </label>
+  <input id="low" type="number" name="low">
+  <label for="low_exp">x 10^</label>
+  <input id="low_exp" type="number" name="low_exp" value="0"><br>
+  <label for="high">Upper bound: </label>
+  <input id="high" type="number" name="high">
+  <label for="high_exp">x 10^</label>
+  <input id="high_exp" type="number" name="high_exp" value="0"><br>
+  <input type="submit">
+</form>
