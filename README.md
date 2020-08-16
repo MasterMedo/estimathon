@@ -2,6 +2,7 @@
 
 A simple [flask](https://flask.palletsprojects.com/en/1.1.x/) application for playing [estimathons](https://estimathon.com/) with friends in a home setting.
 Questions are chosen through the `questions.yaml` file (13 random).
+Already existing questions assume [SI units](https://en.wikipedia.org/wiki/International_System_of_Units), unless stated in the question itself.
 
 ### Start page
 
